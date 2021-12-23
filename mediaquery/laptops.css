@@ -1,0 +1,146 @@
+@media screen and (min-width: 959px) and (max-width: 1100px) {
+    body {
+      background-color: rgb(58, 34, 28);
+      background-size: 100% 65vw;
+
+    }
+
+nav {
+    width: 60%;
+    padding: -20px;
+    margin: auto;
+    margin-top: 9%;
+    font-size: 1.2em;
+    height: 40px;
+   
+}
+
+
+/* .main-logo img {
+    margin-left: 21.5%;
+    
+    
+    width: 10%;
+    height: 10%;
+    
+} */
+
+nav {
+    margin-top: -0.5%;
+}
+
+
+
+    .second{
+        margin-top: 210px;
+        /* margin-left: 25px; */
+        
+        background-color: transparent;
+        
+    }
+
+.order {
+    margin-left: 80px;
+    padding: 6px;
+    margin-top: 5px;
+    width: 18%;
+    font-size: 140%;
+}
+.cherry {
+    font-size: 100%;
+    color: white;
+    /* text-align: center; */
+    margin-top: -12.4%;
+    padding-left: 60px;
+
+}
+h1 {
+    font-size: 250%;
+}
+h2{
+    font-family: 'Luxurious Script', cursive;
+     font-size: 255%;
+    line-height: 40px;
+    padding-top: 10px;
+     
+}
+.secon {
+   
+    padding-top: 220px;
+    /* background-color: ; */
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+
+h2 {
+    padding-top: 6px;
+}
+
+.second {
+    margin-top: 17%;
+    height: 155vh;
+}
+
+.browse {
+    margin-left: 80%;
+}
+.third {
+    height: 46vh;
+}
+
+  .third img {
+    height: 42vh;
+    margin-top: -235px;
+    
+  }
+  .creme {
+      padding-left: 50%;
+  }
+
+  .third h4 {
+    font-size: 1.5em;
+    padding-left: 2.5vw;
+    padding-bottom: 20px;
+  }
+
+
+.third p {
+    padding: 5px;
+    padding-left: 2vw;
+    font-size: 1.0em;
+
+}
+
+.new {
+    padding-top: 50px;
+}
+
+.fourth .grid-container {
+    margin-top: 30px;
+}
+.creme {
+    padding-top: 2%;
+    padding-left: 35%;
+}
+.new {
+    margin: auto;
+}
+.team {
+    margin: auto;
+}
+.team p {
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+.food1 {
+    margin: auto;
+}
+.food1 img {
+    width: 100%;
+    height: 11em;
+}
+
+
+}
