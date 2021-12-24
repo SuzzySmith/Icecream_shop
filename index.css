@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    /* font-family: ; */
+   
     background-image: url("./assets/creme.png");
     background-repeat: no-repeat;
     background-position: inherit;
@@ -11,7 +11,11 @@ body {
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
+.logo {
+  font-family: 'Luxurious Script', cursive;
+  font-size: 24px;
 
+}
 .main-logo img {
     margin-left: 20.5%;
     margin-top: 1%;
@@ -31,7 +35,7 @@ nav{
     align-content: center;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 70%;
     height: 55px;
     border-radius: 0.7em;
     margin: auto;
@@ -42,9 +46,19 @@ nav{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 
 }
+button {
+  background-color: transparent;
+  border: none;
+  color: rgb(238, 23, 116);
+}
+button:hover {
+  outline: 0;
+  cursor: pointer;
+  color: rgb(5, 5, 5);
+}
 
 ul {
-    /* padding-right: 10%; */
+   
     text-align: center;
     align-items: center;
 }
@@ -62,14 +76,11 @@ nav a {
     color: #030303;
   }
 
-/* .first {
-    width: 100%;
-    height: 150vh;
-} */
+
 .cherry {
     font-size: 100%;
     color: white;
-    /* text-align: center; */
+    
     margin-top: -4.4%;
     padding-left: 60px;
 
@@ -79,7 +90,7 @@ h1 {
 }
 h2{
     font-family: 'Luxurious Script', cursive;
-     font-size: 305%;
+     font-size: 250%;
     line-height: 40px;
     padding-top: 10px;
     color: white; 
@@ -87,7 +98,7 @@ h2{
 
 .second{
     margin-top: 50vh;
-    /* margin-left: 25px; */
+   
     padding-right: 25px;
     padding-left: 25px;
     background-color: transparent;
@@ -125,7 +136,7 @@ h2{
 }
 
 .browse {
-    margin-left: 70vw;
+    margin-left: -2vw;
     cursor: pointer;
     
 }
@@ -135,40 +146,6 @@ h2{
     color: rgb(238, 23, 116);
     
   }
-/* .exclusive {
-    font-weight: 800px;
-    color: rgb(12, 12, 12);
-   
-   font-size: 20px;
-} */
-/* 
- .table {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center;
-    justify-content: center;
-    gap: 0.1em;
-    
-  } */
-  /* .card img {
-    width: inherit;
-  } */
-  
-  /* .card {
-    align-items: center;
-    align-content: center;
-    margin: 10px;
-    padding-top: 20px;
-    background: #fff;
-    line-height: 1.7em;
-    width: 200px;
-  } */
-  
-  /* .card-body {
-    margin-left: 50px;
-    margin-bottom: 20px;
-  }
-  */
 
    .grid-container {
     display: grid;
@@ -181,7 +158,7 @@ h2{
 .grid-item {
 
     background-color: transparent;
-    /* border: none; */
+   
     border-radius: 2em 5em;
     padding: 20px;
     font-size: 30px;
@@ -218,8 +195,7 @@ h2{
     font-size: 17px;
     border: 1px solid;
     border-radius: 20px 10px;
-    /* box-sizing: inherit; */
-    /* margin-left: 10px; */
+   
     border-color: rgb(238, 23, 116);
     background-color: transparent;
     cursor: pointer;
@@ -238,7 +214,6 @@ h2{
 
   .third{
       padding-top: 9vh;
-      /* marg-left: 50px; */
       background-color: rgb(238, 23, 116);
       color: white;
       
@@ -253,7 +228,7 @@ h2{
     height: 50vh;
    
    margin-left: 3vw;
-    margin-top: -15em; 
+    margin-top: -25em; 
     padding-bottom: 2vh;
     
   }
@@ -298,7 +273,6 @@ h2{
     font-size: 25px;
     font-weight: 500;
     text-align: center;
-
 
 }
 
@@ -354,7 +328,6 @@ ul {
 .fourth .grid-item {
 
     background-color: transparent;
-    /* border: none; */
     border-radius: 2em 5em;
     padding: 20px;
     font-size: 20px;
