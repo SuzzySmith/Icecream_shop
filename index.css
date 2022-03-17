@@ -57,18 +57,14 @@ button:hover {
   color: rgb(5, 5, 5);
 }
 
-ul {
-   
-    text-align: center;
-    align-items: center;
-}
+
 nav a {
-    color: rgb(240, 13, 13);
+    color: #EE1774;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    transition: 0.2s ease-in-out;
   }
   
   a:hover {
@@ -97,8 +93,7 @@ h2{
 }
 
 .second{
-    margin-top: 50vh;
-   
+    margin-top: 35vh;
     padding-right: 25px;
     padding-left: 25px;
     background-color: transparent;
@@ -117,13 +112,15 @@ h2{
    color: rgb(238, 23, 116);
    cursor: pointer;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transition: 0.2s ease-in-out;
 
 }
 
 .order:hover {
     outline: 0;
     color: white;
-    background-color: rgb(238, 23, 116);
+    background-color: rgb(253, 28, 103);
+
   }
 
 .secon {
@@ -136,7 +133,7 @@ h2{
 }
 
 .browse {
-    margin-left: -2vw;
+    margin-left: 65vw;
     cursor: pointer;
     
 }
@@ -202,6 +199,7 @@ h2{
     width: 150px;
     text-align: center;
     margin: auto;
+    transition: 0.2s ease-in-out;
 
   }
  
@@ -209,14 +207,14 @@ h2{
   .cart:hover {
     outline: 0;
     color: white;
-    background-color: rgb(238, 23, 116);
+    background-color: #FD1C67;
   }
 
   .third{
       padding-top: 9vh;
       background-color: rgb(238, 23, 116);
       color: white;
-      
+      margin-top: -3%;
       background-repeat: no-repeat;
       background-position: inherit;
       background-size: 100% 450px;
@@ -225,12 +223,16 @@ h2{
   }
 
 .third img {
-    height: 50vh;
-   
+    height: 45vh;
    margin-left: 3vw;
     margin-top: -25em; 
     padding-bottom: 2vh;
+    border-radius: 30px;
+
     
+  }
+  .exclusive{
+    padding-left: 5%;
   }
   .creme {
       padding-top: 2%;
@@ -239,18 +241,19 @@ h2{
   }
   .third h4 {
     font-size: 2em;
-    padding-left: 2vw;
+    padding-left: 3.9vw;
     padding-bottom: 20px;
   }
 .icy {
-    font-size: 17px;
+    font-size: 12px;
     padding: 5%;
+    margin-left: 3%;
     
 }
 .third p {
-    padding: 15px;
+    padding: 50px;
     padding-left: 2vw;
-    font-size: 1.5em;
+    font-size: 1em;
 
 }
 .third br {
@@ -285,34 +288,55 @@ h2{
     margin: auto;
    
 }
-ul {
+.navi ul {
     display: flex;
     justify-content: center;
   width: 100%;
   height: 100%;
 }
-.socials{
+.socils{
+  
     cursor: pointer;
     padding-top: 10px;
     width: 100%;
     height: 100%;
+    transition: 0.2s ease-in-out;
 }
-.socials li {
+.socials ul {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 2em;
     justify-content: center;
     width: 5vh;
     color: rgb(170, 169, 169);
+    transition: 0.2s ease-in-out;
   }
   .socials i {
+
+    align-items: center;
+   margin-right: 5px;
     display: flex;
-    
+    flex-direction: row;
+    gap: 1em;
     font-size: 40px;
     /* padding: 20px; */
     text-decoration: none
   
   }
-  .socials li:hover {
+  li {
+    text-decoration: none;
+    list-style: none;
+  }
+   .fa {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    color: rgb(253, 28, 103);
+
+    
+  }
+  .fa:hover {
     outline: 0;
     color: rgb(253, 28, 103);
   }  
@@ -342,6 +366,7 @@ ul {
     padding-right: 50em; */
 } 
 
+
 .food-category {
     background-color: white;
 
@@ -356,6 +381,8 @@ ul {
     background-color: white;
   }
   
+
+  
   .food1 {
     background-color: transparent;
 width: 100%;
@@ -364,10 +391,15 @@ align-items: center;
 text-align: center;
    
   }
+  .food1 ul{
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
+  }
   .food1 img {
-    width: 100%;
-    height: 10em;
-    position: relative;
+    border-radius: 50%;
+    width: 200px;
+   
     margin-top: -56px;
     /* margin-right: 10px; */
     /* padding: 0.2em; */
@@ -411,5 +443,59 @@ text-align: center;
     padding: 20px;
       display: flex;
       justify-content: center;
-      background-color: rgb(253, 28, 103);
+      background-color: #EE1774;
+      font-weight: 100;
   }
+
+  .foot-menu{
+    color: white;
+    margin-left: 15%;
+    line-height: 35px;
+
+  }
+  .foot-menu li {
+    display: flex;
+    padding-top: 2%;
+  }
+  .food-menu ul{
+    display: flex;
+    flex-direction: row;
+  }
+  .foot-name{
+margin-left: -3%;
+color: white;
+line-height: 25px;
+  }
+  .foot-name h2 {
+    padding-top: -5%;
+  }
+  .foot-name .fa {
+    color: white;
+    /* padding-right: 1%; */
+  }
+  .foot-contact{
+    display: flex;
+    gap: 2em;
+    color: white;
+    margin-left: 15%;
+    line-height: 35px;
+  }
+.follow{
+  margin-top: 3%;
+}
+.follow i {
+  padding-top: 1%;
+  padding-right: 3%;
+}
+.foot-contact .fa {
+  color: white;
+  /* padding-right: 1%; */
+}
+.copyright{
+  text-align : center;
+  display: flex;
+  flex-direction: row;
+  margin-left: -80%;
+margin-top: 15%;
+color: white;
+}

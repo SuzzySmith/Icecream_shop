@@ -100,18 +100,10 @@
     text-align: center;
 }
 
-
-.food1 img {
-    width: 40%;
-    height: 6em;
-    gap: 5em;
-    
-}
-
 .food1 {
 background-color: transparent;
-width: 150%;
-height: -15%;
+/* width: 150%;
+height: -15%; */
 margin: auto;
 
    
